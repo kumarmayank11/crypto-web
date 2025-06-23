@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stock Predictor</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📈 Stock Price Predictor</h1>
+        <form method="POST" action="/predict">
+            <input type="text" name="ticker" placeholder="Enter Stock Ticker (e.g., TSLA)" required>
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+</body>
+</html>
